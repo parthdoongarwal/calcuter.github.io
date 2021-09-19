@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="con">
+      <div id="main-ans">
+          <h1 id = "dkdkd"></h2>
+        <h2 id="root"></h2>
+      </div>
+
+      <div id="roww">
+        <button onclick="clearr()">Clear</button>
+        <button onclick="remove()">X</button>
+      </div>
+
+      <div class="row1 row">
+        <button onclick='add("7")'>7</button>
+        <button onclick='add("8")'>8</button>
+        <button onclick='add("9")'>9</button>
+        <button onclick='add("+")'>+</button>
+      </div>
+      <div class="row2 row">
+        <button onclick='add("4")'>4</button>
+        <button onclick='add("5")'>5</button>
+        <button onclick='add("6")'>6</button>
+        <button onclick='add("-")'>-</button>
+      </div>
+      <div class="row3 row">
+        <button onclick='add("1")'>1</button>
+        <button onclick='add("2")'>2</button>
+        <button onclick='add("3")'>3</button>
+        <button onclick='add("*")'>*</button>
+      </div>
+      <div class="row4 row">
+        <button onclick='add("0")'>0</button>
+        <button onclick='add(".")'>.</button>
+        <button onclick='add("/")'>/</button>
+        <button onclick="solve()">=</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
